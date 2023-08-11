@@ -1,4 +1,4 @@
-# LOA
+# SISOR
 
 [![Updated](https://github.com/splor-mg/loa-dados-2024/actions/workflows/all.yaml/badge.svg)](https://github.com/splor-mg/loa-dados-2024/actions/)
 
