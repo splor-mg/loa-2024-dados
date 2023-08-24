@@ -17,5 +17,9 @@ fields:
     decimalChar: ','    
   - name: Cód. UO Beneficiada
     type: integer
+    missingValues:
+      - 'Não Repassado'
   - name: UO Beneficiada
     type: string
+    missingValues:
+      - 'Não Repassado'
