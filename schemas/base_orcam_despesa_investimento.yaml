@@ -33,10 +33,6 @@ fields:
     type: integer
   - name: Natureza
     type: string
-  - name: Valor (R$) 2023
-    type: number
-    groupChar: '.'
-    decimalChar: ','    
   - name: Valor (R$) 2024
     type: number
     groupChar: '.'
@@ -46,6 +42,10 @@ fields:
     groupChar: '.'
     decimalChar: ','    
   - name: Valor (R$) 2026
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: Valor (R$) 2027
     type: number
     groupChar: '.'
     decimalChar: ','    

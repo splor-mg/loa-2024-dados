@@ -33,10 +33,6 @@ fields:
     type: string
   - name: ACAO
     type: string
-  - name: VALOR (R$) 2023
-    type: number
-    groupChar: '.'
-    decimalChar: ','
   - name: VALOR (R$) 2024
     type: number
     groupChar: '.'
@@ -46,6 +42,10 @@ fields:
     groupChar: '.'
     decimalChar: ','
   - name: VALOR (R$) 2026
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: VALOR (R$) 2027
     type: number
     groupChar: '.'
     decimalChar: ','

@@ -11,23 +11,15 @@ fields:
     type: integer
   - name: IAG
     type: integer
-  - name: Valor Limite 2023
-    type: number
-    groupChar: '.'
-    decimalChar: ','    
-  - name: Valor Utilizado 2023
-    type: number
-    groupChar: '.'
-    decimalChar: ','    
-  - name: Valor Transferido
-    type: number
-    groupChar: '.'
-    decimalChar: ','    
   - name: Valor Limite 2024
     type: number
     groupChar: '.'
     decimalChar: ','    
   - name: Valor Utilizado 2024
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: Valor Transferido
     type: number
     groupChar: '.'
     decimalChar: ','    
@@ -44,6 +36,14 @@ fields:
     groupChar: '.'
     decimalChar: ','    
   - name: Valor Utilizado 2026
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: Valor Limite 2027
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: Valor Utilizado 2027
     type: number
     groupChar: '.'
     decimalChar: ','    
