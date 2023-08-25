@@ -1,21 +1,18 @@
 fields:
   - name: UO_COD
-    title: uo_cod
     type: integer
   - name: NOME_UO
-    title: uo_nome
     type: string
   - name: SIGLA_UO
-    title: uo_sigla
+    target: UO_SIGLA
     type: string
   - name: COD_FONTE
-    title: fonte_cod
+    target: FONTE_COD
     type: integer
   - name: FONTE
-    title: fonte_desc
+    target: FONTE_DESC
     type: string
   - name: INTERPRETACAO
-    title: fonte_interp
     type: string
   - name: CATEGORIA
     type: integer
@@ -36,30 +33,29 @@ fields:
   - name: SUBITEM
     type: integer
   - name: COD_RECEITA
-    title: receita_cod
+    target: RECEITA_COD
     type: integer
   - name: RECEITA
-    title: receita_desc
+    target: RECEITA_DESC
     type: string
   - name: INTERP_RECEITA
     type: string
   - name: VALOR UO (R$)
-    title: vl_loa_rec_uo
+    target: VL_LOA_REC_UO
     type: number
     groupChar: '.'
     decimalChar: ','        
   - name: VALOR SCPPO (R$)
-    title: vl_loa_rec_scppo
+    target: VL_LOA_REC_SCPPO
     type: number
     groupChar: '.'
     decimalChar: ','        
   - name: VALOR FINAL (R$)
-    title: vl_loa_rec
+    target: VL_LOA_REC
     type: number
     groupChar: '.'
     decimalChar: ','        
   - name: ANO
-    title: ano
     type: integer
   - name: BASE LEGAL
     type: string
