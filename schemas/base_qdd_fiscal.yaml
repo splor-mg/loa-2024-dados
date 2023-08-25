@@ -79,5 +79,5 @@ fields:
     target: ACAO_DESC
     type: string
   - name: NOME_PROGRAMA
-    target: ACAO_COD
+    target: PROGRAMA_DESC
     type: string
