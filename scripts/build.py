@@ -1,13 +1,14 @@
-from pathlib import Path
-from frictionless import Package, Schema, transform, steps
+from frictionless import Package, Resource
 from datetime import datetime
+from scripts.pipelines import build_pipeline
 
-def build_package(output_path: Path, descriptor: str = 'datapackage.yaml'):
-    package = Package(descriptor)
+def build_package(source_descriptor: str = 'datapackage.yaml'):
     
-    output_descriptor = {
+    source = Package(source_descriptor)
+
+    target_descriptor = {
         "profile": "tabular-data-package",
-        "name": package.name,
+        "name": source.name,
         "resources": [
             {
             "profile": "tabular-data-resource",
@@ -15,22 +16,21 @@ def build_package(output_path: Path, descriptor: str = 'datapackage.yaml'):
             "path": f'data/{resource_name}.csv',
             "format": "csv",
             "encoding": "utf-8",
-            "schema": {"fields": []}
-            } for resource_name in package.resource_names
+            "schema": {"fields": [
+                {
+                'name': field.custom['target'] if field.custom.get('target') else field.name,
+                'type': field.type,
+                'source': field.name,
+                } for field in source.get_resource(resource_name).schema.fields                
+            ]}
+            } for resource_name in source.resource_names
         ]
     }
+
+    target = Package.from_descriptor(target_descriptor)
+    target.custom['updated_at'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
     
-    output = Package.from_descriptor(output_descriptor)
-    output.custom['updated_at'] = datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
-    for resource in output.resources:
-        schema = Schema.describe(resource.path)
-        resource.schema = schema
+    for resource in target.resources:
         resource.infer(stats=True)
 
-        resource = transform(resource, 
-                             steps=[
-                                 steps.resource_update(name = resource.name, 
-                                                       descriptor = {'path': f'{resource.name}.csv'})
-                             ])
-
-    output.to_json(Path(output_path, 'datapackage.json'))
+    target.to_json('datapackage.json')

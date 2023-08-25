@@ -1,3 +1,4 @@
+from frictionless import Package
 import typer
 import logging
 from scripts.extract import extract_resource
@@ -11,6 +12,16 @@ def callback():
     """
     ETL scripts.
     """
+
+@app.command()
+def resources(descriptor: str = 'datapackage.yaml'):
+    """
+    Data package resource names
+    """
+    package = Package(descriptor)
+    output = ' '.join(package.resource_names)
+    print(output)
+    return 0
 
 app.command(name="extract")(extract_resource)
 app.command(name="transform")(transform_resource)
