@@ -23,8 +23,12 @@ colorama==0.4.6
     # via typer
 cssselect==1.2.0
     # via pyquery
-frictionless[html]==5.13.1
+dpm @ git+https://github.com/splor-mg/dpm.git@main
     # via -r requirements.in
+frictionless[html]==5.13.1
+    # via
+    #   -r requirements.in
+    #   dpm
 humanize==4.7.0
     # via frictionless
 idna==3.4
@@ -68,7 +72,9 @@ referencing==0.30.2
     #   jsonschema
     #   jsonschema-specifications
 requests==2.31.0
-    # via frictionless
+    # via
+    #   dpm
+    #   frictionless
 rfc3986==2.0.0
     # via frictionless
 rich==13.5.2
@@ -92,13 +98,17 @@ tabulate==0.9.0
 text-unidecode==1.3
     # via python-slugify
 typer[all]==0.9.0
-    # via frictionless
+    # via
+    #   dpm
+    #   frictionless
 typing-extensions==4.7.1
     # via
     #   frictionless
     #   pydantic
     #   pydantic-core
     #   typer
+unidecode==1.3.6
+    # via dpm
 urllib3==2.0.4
     # via requests
 validators==0.21.2
