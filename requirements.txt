@@ -23,7 +23,7 @@ colorama==0.4.6
     # via typer
 cssselect==1.2.0
     # via pyquery
-dpm @ git+https://github.com/splor-mg/dpm.git@main
+dpm @ git+https://github.com/splor-mg/dpm.git@v0.0.0-9008
     # via -r requirements.in
 frictionless[html]==5.13.1
     # via
