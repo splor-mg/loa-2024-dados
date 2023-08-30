@@ -1,7 +1,9 @@
 fields:
   - name: Ano de Exercício
+    target: ANO
     type: integer
   - name: UO
+    target: UO_COD
     type: string
   - name: Classificação
     type: string

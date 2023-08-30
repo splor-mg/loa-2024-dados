@@ -1,9 +1,12 @@
 fields:
   - name: COD_UO
+    target: UO_COD
     type: integer
   - name: NOME_UO
+    target: UO_NOME
     type: string
   - name: SIGLA_UO
+    target: UO_SIGLA
     type: string
   - name: CATEGORIA
     type: integer

@@ -1,35 +1,50 @@
 fields:
   - name: Código do Órgão
+    target: ORGAO_COD
     type: integer
   - name: Órgão
+    target: ORGAO_NOME_SIGLA
     type: string
   - name: Código da UO
+    target: UO_COD
     type: integer
   - name: Unidade Orçamentária
+    target: UO_NOME_SIGLA
     type: string
   - name: Função
+    target: FUNCAO_COD
     type: integer
   - name: Subfunção
+    target: SUBFUNCAO_COD 
     type: integer
   - name: Programa
+    target: PROGRAMA_COD
     type: integer
   - name: Identificador
+    target: IDENTIFICADOR
     type: integer
   - name: Projeto_Atividade
+    target: PROJETO_ATIVIDADE
     type: integer
   - name: Ação
+    target: ACAO_COD
     type: integer
   - name: Subprojeto
+    target: SUBPROJETO_COD
     type: integer
   - name: Fonte
+    target: FONTE_COD
     type: integer
   - name: IAG
+    target: IAG_COD
     type: integer
   - name: Descrição
     type: string
   - name: Categoria
+    target: CATEGORIA_COD
     type: string
   - name: Código da Natureza
+    target: NATUREZA_COD
     type: integer
   - name: Natureza
     type: string
