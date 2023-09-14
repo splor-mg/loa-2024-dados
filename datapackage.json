@@ -11,10 +11,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:a117e41e73f367c1c68f8a91047fa7ce01b1cd43e05ade4ab8878affc63405e4",
-      "bytes": 2379618,
+      "hash": "sha256:68ad56e1b28d2ffbd23bae00a3a3b9332a5ced3d36dca6117510e33414da3f08",
+      "bytes": 2380683,
       "fields": 21,
-      "rows": 10745,
+      "rows": 10749,
       "schema": {
         "fields": [
           {
@@ -134,7 +134,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ff38f36805f5f54cdccfd57662c8a24de261873cfc24fc88d977d1f19147986c",
+      "hash": "sha256:222dd431ebd3739f19eeb268c1c11c7b38ea93426d5279032b7e8bff9d6bfbc1",
       "bytes": 685692,
       "fields": 23,
       "rows": 2393,
@@ -267,7 +267,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:a0c2d9dd85cb01f87a19d9a4cef5b2521ba98955917b310bd464279dc7cd1ec8",
+      "hash": "sha256:e3fe1015db5aee0a68ea88f04497e68008766df96d9732bfb2612870587e4e06",
       "bytes": 12173,
       "fields": 21,
       "rows": 40,
@@ -651,7 +651,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:c9875d8153a0ed3d5213a92717fb098683fea797f21fe5fa8e45acb8e4626f96",
+      "hash": "sha256:65917f09d7cc2c9699732140e085e3a8f34fdba958db9c7f94a682b0f0329657",
       "bytes": 1649484,
       "fields": 27,
       "rows": 5432,
@@ -937,7 +937,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:1fd9aee19481e1b84eb590316cc66b8a6aa0d0d8096f185da41ba4664f3bfc3b",
+      "hash": "sha256:9b832c30cae93964f9ada1f46dc916d6aada73407c7b18f45401b6b2c87a0e98",
       "bytes": 508144,
       "fields": 24,
       "rows": 1025,
@@ -1163,10 +1163,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:4b6df0e1a50cd5833f84556c79a29373e024fca2fb9b631d24f390ee77a84cfb",
-      "bytes": 117252,
+      "hash": "sha256:e14255ed3ed5bc385224adac984820e339ece37b5e493b77ca603b34deec771f",
+      "bytes": 117618,
       "fields": 10,
-      "rows": 430,
+      "rows": 431,
       "schema": {
         "fields": [
           {
@@ -1231,10 +1231,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:fc2edf37e44aca2144808a5dcf2d79fe0993f6f471d8c164b4b0fc74c22d9a0e",
-      "bytes": 14779,
+      "hash": "sha256:c25ccad48146ad6746b6c633dd662d7e3bab660b0ba41a6e25efcaae702a5396",
+      "bytes": 15015,
       "fields": 5,
-      "rows": 324,
+      "rows": 329,
       "schema": {
         "fields": [
           {
@@ -1337,7 +1337,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:9245bd6c92cb718c33a06f944a93fa9d12376912c651668257bcb491fdd6b360",
+      "hash": "sha256:1c7d0ce2d3a34f14d862e3a669b8b468f395a6cd3b5c4e4e67574df8861520cd",
       "bytes": 38621,
       "fields": 15,
       "rows": 465,
@@ -1430,10 +1430,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:0135b7c5d35f06291baf7746fc76a0269401757e1e65f625457c1db0ae6509fc",
-      "bytes": 421,
+      "hash": "sha256:a42e7f2b68d5489782f7ce4ab3503fd7e468ead4cc3807da4ee6f2ab317153aa",
+      "bytes": 397,
       "fields": 4,
-      "rows": 15,
+      "rows": 14,
       "schema": {
         "fields": [
           {
@@ -1468,10 +1468,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:40f552939b6372571904470489839ac1d14f73828fd14acf73464e9d29962000",
-      "bytes": 186065,
+      "hash": "sha256:51e315a4f36cc1f9f0bc546add499251a54dbf4a5369ce556ace080bc6f7e980",
+      "bytes": 186846,
       "fields": 9,
-      "rows": 964,
+      "rows": 968,
       "schema": {
         "fields": [
           {
@@ -1561,5 +1561,5 @@
       }
     }
   ],
-  "updated_at": "2023-09-14T08:27:46"
+  "updated_at": "2023-09-14T16:30:36"
 }
