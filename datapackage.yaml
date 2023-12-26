@@ -1,4 +1,4 @@
-name: loa-elaboracao
+name: sisor-dados
 resources:
   - name: base_orcam_despesa_item_fiscal
     title: Orçamento da Despesa Fiscal / Itens de Despesa

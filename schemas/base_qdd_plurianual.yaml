@@ -1,76 +1,76 @@
 fields:
   - name: ANO
-    target: ANO
+    target: ano
     type: integer
   - name: COD_ORGAO
-    target: ORGAO_COD
+    target: orgao_cod
     type: integer
   - name: DESC_ORGAO
-    target: ORGAO_NOME_SIGLA
+    target: orgao_nome_sigla
     type: string
   - name: COD_UO
-    target: UO_COD
+    target: uo_cod
     type: integer
   - name: DESC_UO
-    target: UO_NOME_SIGLA
+    target: uo_nome_sigla
     type: string
   - name: FUNCAO
-    target: FUNCAO_COD
+    target: funcao_cod
     type: integer
   - name: SUBFUNCAO
-    target: SUBFUNCAO_COD
+    target: subfuncao_cod
     type: integer
   - name: COD_PROGRAMA
-    target: PROGRAMA_COD
+    target: programa_cod
     type: integer
   - name: IDENT_PROJATIV
     type: integer
   - name: PROJ_ATIV
     type: integer
   - name: AÇÃO
-    target: ACAO_COD
+    target: acao_cod
     type: integer
   - name: SUBPROJETO
-    target: SUBPROJETO_COD
+    target: subprojeto_cod
     type: integer
   - name: CATEGORIA
-    target: CATEGORIA_COD
+    target: categoria_cod
     type: integer
   - name: GRUPO_DESPESA
-    target: GRUPO_COD
+    target: grupo_cod
     type: integer
   - name: FONTE
-    target: FONTE_COD
+    target: fonte_cod
     type: integer
   - name: IPU
-    target: IPU_COD
+    target: ipu_cod
     type: integer
   - name: IAG
-    target: IAG_COD
+    target: iag_cod
     type: integer
   - name: PROGRAMA
-    target: PROGRAMA_DESC
+    target: programa_desc
     type: string
   - name: ACAO
-    target: ACAO_DESC
+    target: acao_desc
     type: string
   - name: VALOR (R$) 2024
-    target: VL_LOA_DESP_ANO0
+    target: vlr_loa_desp_ano0
     type: number
     groupChar: '.'
     decimalChar: ','
   - name: VALOR (R$) 2025
-    target: VL_LOA_DESP_ANO1
+    target: vlr_loa_desp_ano1
     type: number
     groupChar: '.'
     decimalChar: ','
   - name: VALOR (R$) 2026
-    target: VL_LOA_DESP_ANO2
+    target: vlr_loa_desp_ano2
     type: number
     groupChar: '.'
     decimalChar: ','
   - name: VALOR (R$) 2027
-    target: VL_LOA_DESP_ANO3
+    target: vlr_loa_desp_ano3
     type: number
     groupChar: '.'
     decimalChar: ','

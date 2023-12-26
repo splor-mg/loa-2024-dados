@@ -2,3 +2,5 @@ venv/
 data/
 data-raw/
 .Rproj.user
+.Rhistory
+datapackage.json

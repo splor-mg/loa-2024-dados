@@ -2,7 +2,7 @@ fields:
   - name: UO_COD
     type: integer
   - name: UO_DESC
-    target: UO_NOME
+    target: uo_nome
     type: string
   - name: UO_SIGLA
     type: string
