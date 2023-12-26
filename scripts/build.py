@@ -19,7 +19,7 @@ def build_package(source_descriptor: str = 'datapackage.yaml'):
             "encoding": "utf-8",
             "schema": {"fields": [
                 {
-                'name': field.custom['target'] if field.custom.get('target') else as_identifier(field.name),
+                'name': field.custom['target'] if field.custom.get('target') else as_identifier(field.name, case=str.lower),
                 'type': field.type,
                 'source': field.name,
                 } for field in source.get_resource(resource_name).schema.fields                

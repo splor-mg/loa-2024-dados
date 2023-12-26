@@ -15,6 +15,6 @@ def transform_resource(resource_name: str, source_descriptor: str = 'datapackage
     table = resource.to_petl()
     for field in resource.schema.fields:
         target = field.custom.get('target')
-        target = target if target else as_identifier(field.name)
+        target = target if target else as_identifier(field.name, case=str.lower)
         table = etl.rename(table, field.name, target)
     etl.tocsv(table, f'data/{resource.name}.csv', encoding='utf-8')

@@ -1,83 +1,86 @@
 fields:
   - name: ANO
-    target: ANO
+    target: ano
     type: integer
   - name: COD_ORGAO
-    target: ORGAO_COD
+    target: orgao_cod
     type: integer
   - name: ORGAO
-    target: ORGAO_NOME_SIGLA
+    target: orgao_nome_sigla
     type: string
   - name: PODER
-    target: PODER_COD
+    target: poder_cod
     type: integer
   - name: SITUACAO
     type: integer
   - name: COD_UO
-    target: UO_COD
+    target: uo_cod
     type: integer
   - name: UO
-    target: UO_NOME_SIGLA
+    target: uo_nome_sigla
     type: string
   - name: CATEGORIA
-    target: CATEGORIA_COD
+    target: categoria_cod
     type: integer
   - name: GRUPO_DESPESA
-    target: GRUPO_COD
+    target: grupo_cod
     type: integer
   - name: MODALIDADE
-    target: MODALIDADE_COD
+    target: modalidade_cod
     type: integer
   - name: ELEMENTO_DESPESA
-    target: ELEMENTO_COD
+    target: elemento_cod
     type: integer
   - name: FONTE
-    target: FONTE_COD
+    target: fonte_cod
     type: integer
   - name: IPU
-    target: IPU_COD
+    target: ipu_cod
     type: integer
   - name: SEQ_PROGTRAB
     type: integer
   - name: FUNCAO
-    target: FUNCAO_COD
+    target: funcao_cod
     type: integer
   - name: SUB_FUNCAO
-    target: SUBFUNCAO_COD
+    target: subfuncao_cod
     type: integer
   - name: PROGRAMA
-    target: PROGRAMA_COD
+    target: programa_cod
     type: integer
   - name: IDENT_PROJATIV
+    target: identificador_tipo_acao_cod
     type: integer
   - name: PROJ_ATIV
+    target: projeto_atividade_cod
     type: integer
   - name: AÇÃO
-    target: ACAO_COD
+    target: acao_cod
     type: integer
   - name: SUB_PROJETO
+    target: subprojeto_subatividade_cod
     type: integer
   - name: VALOR UO (R$)
-    target: VL_LOA_DESP_UO
+    target: vlr_loa_desp_uo
     type: number
     groupChar: '.'
     decimalChar: ','
   - name: VALOR SCPPO (R$)
-    target: VL_LOA_DESP_SCPPO
+    target: vlr_loa_desp_scppo
     type: number
     groupChar: '.'
     decimalChar: ','
   - name: VALOR FINAL (R$)
-    target: VL_LOA_DESP
+    target: vlr_loa_desp
     type: number
     groupChar: '.'
     decimalChar: ','
   - name: IAG
-    target: IAG_COD
+    target: iag_cod
     type: integer
   - name: NOME_ACAO
-    target: ACAO_DESC
+    target: acao_desc
     type: string
   - name: NOME_PROGRAMA
-    target: PROGRAMA_DESC
+    target: programa_desc
     type: string

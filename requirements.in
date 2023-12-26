@@ -1,2 +1,2 @@
-frictionless[html]==5.13.1
-git+https://github.com/splor-mg/dpm.git@v0.0.0-9008
+frictionless[html]
+git+https://github.com/splor-mg/dpm.git@main

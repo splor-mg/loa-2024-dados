@@ -4,13 +4,13 @@ fields:
   - name: NOME_UO
     type: string
   - name: SIGLA_UO
-    target: UO_SIGLA
+    target: uo_sigla
     type: string
   - name: COD_FONTE
-    target: FONTE_COD
+    target: fonte_cod
     type: integer
   - name: FONTE
-    target: FONTE_DESC
+    target: fonte_desc
     type: string
   - name: INTERPRETACAO
     type: string
@@ -33,25 +33,25 @@ fields:
   - name: SUBITEM
     type: integer
   - name: COD_RECEITA
-    target: RECEITA_COD
+    target: receita_cod
     type: integer
   - name: RECEITA
-    target: RECEITA_DESC
+    target: receita_desc
     type: string
   - name: INTERP_RECEITA
     type: string
   - name: VALOR UO (R$)
-    target: VL_LOA_REC_UO
+    target: vlr_loa_rec_uo
     type: number
     groupChar: '.'
     decimalChar: ','        
   - name: VALOR SCPPO (R$)
-    target: VL_LOA_REC_SCPPO
+    target: vlr_loa_rec_scppo
     type: number
     groupChar: '.'
     decimalChar: ','        
   - name: VALOR FINAL (R$)
-    target: VL_LOA_REC
+    target: vlr_loa_rec
     type: number
     groupChar: '.'
     decimalChar: ','        
