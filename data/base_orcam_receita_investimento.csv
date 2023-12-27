@@ -1,4 +1,4 @@
-uo_cod,uo_nome,uo_sigla,categoria,subcategoria,alinea,subalinea,cod_receita,nivel_origem,receita,valor_uo,valor_scppo,valor_final,ano
+uo_cod,uo_nome,uo_sigla,categoria,subcategoria,alinea,subalinea,cod_receita,nivel_origem,receita,vlr_loa_rec_uo_invest,vlr_loa_rec_scppo_invest,vlr_loa_rec_invest,ano
 5011,COMPANHIA DE DESENVOLVIMENTO ECONÔMICO DE MINAS GERAIS,CODEMIG,5,1,0,0,5 1 0 0,D,RECURSOS PRÓPRIOS,1000.00,1000.00,1000.00,2024
 5031,COMPANHIA DE DESENVOLVIMENTO DE MINAS GERAIS,CODEMG,5,1,0,0,5 1 0 0,D,RECURSOS PRÓPRIOS,12580000.00,12580000.00,12580000.00,2024
 5071,COMPANHIA DE HABITAÇÃO DO ESTADO DE MINAS GERAIS,COHAB,5,1,0,0,5 1 0 0,D,RECURSOS PRÓPRIOS,120000.00,120000.00,120000.00,2024

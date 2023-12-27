@@ -1075,8 +1075,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:748b6e882e73b79ff16a62b770c57356bd1862178a537dc2ddc417f54889e7cc",
-      "bytes": 2684,
+      "hash": "sha256:760cdea418d5ea8613670ad62e858c11d3ea4fa12a56b13147d6971d2e8c978b",
+      "bytes": 2717,
       "fields": 14,
       "rows": 19,
       "schema": {
@@ -1132,17 +1132,17 @@
             "source": "RECEITA"
           },
           {
-            "name": "valor_uo",
+            "name": "vlr_loa_rec_uo_invest",
             "type": "number",
             "source": "VALOR UO (R$)"
           },
           {
-            "name": "valor_scppo",
+            "name": "vlr_loa_rec_scppo_invest",
             "type": "number",
             "source": "VALOR SCPPO (R$)"
           },
           {
-            "name": "valor_final",
+            "name": "vlr_loa_rec_invest",
             "type": "number",
             "source": "VALOR FINAL (R$)"
           },
@@ -1561,5 +1561,5 @@
       }
     }
   ],
-  "updated_at": "2023-12-26T14:58:57"
+  "updated_at": "2023-12-27T12:19:48"
 }
