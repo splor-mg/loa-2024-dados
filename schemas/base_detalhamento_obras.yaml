@@ -24,6 +24,7 @@ fields:
     type: integer
   - name: NUMERO DA OBRA SIAD
     type: integer
+    missingValues: ["0"]
   - name: DESCRICAO DA OBRA
     type: string
   - name: STATUS DA OBRA
