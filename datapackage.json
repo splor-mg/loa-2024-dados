@@ -11,10 +11,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:9c650eb81255f2b0d1c2e87dc0f9ed3fdf48882412fcdf0ba636bcdcec8b1f23",
-      "bytes": 2484673,
+      "hash": "sha256:58ccbeb15cedc1babf5ff9ad529caf94efc20bacf2e27225c2c4f11bd7e8f5bf",
+      "bytes": 2511912,
       "fields": 21,
-      "rows": 11208,
+      "rows": 11331,
       "schema": {
         "fields": [
           {
@@ -134,10 +134,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ffdb68cb30ba45372e5a4c2b5a222cf10043118a992c042eb577646da579391e",
-      "bytes": 707651,
+      "hash": "sha256:1c919a38ab6b45bb3f0a170a96c5f39be42eb2843fcb7db42f39917607bedaec",
+      "bytes": 737107,
       "fields": 23,
-      "rows": 2472,
+      "rows": 2582,
       "schema": {
         "fields": [
           {
@@ -390,7 +390,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:2c43bc8b8643542198de7690d8ce5dd006196a94824b7b2ffa61aba46151e183",
+      "hash": "sha256:419e861852fbc85123a066ad1a242c947f10de2f0146bfc794a1c896c67ed37e",
       "bytes": 12106,
       "fields": 21,
       "rows": 39,
@@ -513,8 +513,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:d9f4aaf9ef6d35d69b0fcd4026c538f403747d92082aeadadc2bbd4662bacd76",
-      "bytes": 85345,
+      "hash": "sha256:6c3b155f8fdb40c0cb1b7d07180468cab427703d28d4f54a2d501be20badcf55",
+      "bytes": 85348,
       "fields": 24,
       "rows": 356,
       "schema": {
@@ -651,10 +651,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:d954c6c2b6535ce9eb7f3e769c32ac70472c8a81503fadba20814030be987082",
-      "bytes": 1699502,
+      "hash": "sha256:b3960f237c93fe36a3e1f3c49c651a3490d3523383d31401cb1f844cd376d471",
+      "bytes": 1737393,
       "fields": 27,
-      "rows": 5605,
+      "rows": 5728,
       "schema": {
         "fields": [
           {
@@ -937,8 +937,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f0aeb9efde98526330512473acc494e5d0042460c12d6d460c2aec1beb58e116",
-      "bytes": 507314,
+      "hash": "sha256:c02cae8caf42715e30bae659e77ee214503361233404f010ce8962b2ac69f146",
+      "bytes": 507330,
       "fields": 24,
       "rows": 1025,
       "schema": {
@@ -1163,10 +1163,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:e77bd145ecc68bc37a3562ba432de4cb29d9b9c777762816cb7cd2145671f9b4",
-      "bytes": 123005,
+      "hash": "sha256:e75c11843ce62b27b30aa5470b67348e735a3f91b1a7508046f895f12d52f8b5",
+      "bytes": 162475,
       "fields": 10,
-      "rows": 449,
+      "rows": 571,
       "schema": {
         "fields": [
           {
@@ -1231,7 +1231,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:007ef829166541c7ae8fae6b1ff7ae6c7a8099357ac9883f9b34437f3cb6f093",
+      "hash": "sha256:d4d90b1aad1e9134efe8a5818a8bb244c4c1897e16c191004da43685aaf63f66",
       "bytes": 14884,
       "fields": 5,
       "rows": 328,
@@ -1337,8 +1337,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:0cc8c51d11f581beea58fa4a633a5d1e0fd4ef8fae160c335f87889a70a857ae",
-      "bytes": 41200,
+      "hash": "sha256:3a62b81467bdc6caea58709ecbaf22f2dc9bb2eafd1a31c930500f2969fddb8a",
+      "bytes": 41203,
       "fields": 15,
       "rows": 494,
       "schema": {
@@ -1531,7 +1531,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:c4245447d5d178d414c9bcfb046f52e398af6635386ccf6018f2f096dfe1ade0",
+      "hash": "sha256:c3d850a9c27b6603796348f9fd41226f2e569476da17350aa3b7c1d5dcecc37b",
       "bytes": 11074,
       "fields": 4,
       "rows": 172,
@@ -1561,5 +1561,5 @@
       }
     }
   ],
-  "updated_at": "2024-01-08T11:33:24"
+  "updated_at": "2024-01-18T17:27:29"
 }
