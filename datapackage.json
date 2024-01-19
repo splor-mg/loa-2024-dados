@@ -11,10 +11,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:58ccbeb15cedc1babf5ff9ad529caf94efc20bacf2e27225c2c4f11bd7e8f5bf",
-      "bytes": 2511912,
+      "hash": "sha256:83018d729a1ac282680bf762c1459512e2f17dee45b142131a1ee6545477f3e1",
+      "bytes": 2512154,
       "fields": 21,
-      "rows": 11331,
+      "rows": 11332,
       "schema": {
         "fields": [
           {
@@ -651,10 +651,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:b3960f237c93fe36a3e1f3c49c651a3490d3523383d31401cb1f844cd376d471",
-      "bytes": 1737393,
+      "hash": "sha256:215916518adda326af05599a0215af661e345b6bfb43df0b377d1e353275768a",
+      "bytes": 1737690,
       "fields": 27,
-      "rows": 5728,
+      "rows": 5729,
       "schema": {
         "fields": [
           {
@@ -937,7 +937,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:37b92c25c0d77284a8e3171397d8ff4fd745a28f022e667f37f2fbd626c032b3",
+      "hash": "sha256:2e60b42c1b483589745eb3c8b8930fd4fd3d507c626e51f4df2213b3860a4090",
       "bytes": 507330,
       "fields": 24,
       "rows": 1025,
@@ -1561,5 +1561,5 @@
       }
     }
   ],
-  "updated_at": "2024-01-19T17:37:20"
+  "updated_at": "2024-01-19T20:12:17"
 }
