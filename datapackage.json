@@ -11,10 +11,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:83018d729a1ac282680bf762c1459512e2f17dee45b142131a1ee6545477f3e1",
-      "bytes": 2512154,
+      "hash": "sha256:58ccbeb15cedc1babf5ff9ad529caf94efc20bacf2e27225c2c4f11bd7e8f5bf",
+      "bytes": 2511912,
       "fields": 21,
-      "rows": 11332,
+      "rows": 11331,
       "schema": {
         "fields": [
           {
@@ -651,10 +651,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:215916518adda326af05599a0215af661e345b6bfb43df0b377d1e353275768a",
-      "bytes": 1737690,
+      "hash": "sha256:b3960f237c93fe36a3e1f3c49c651a3490d3523383d31401cb1f844cd376d471",
+      "bytes": 1737393,
       "fields": 27,
-      "rows": 5729,
+      "rows": 5728,
       "schema": {
         "fields": [
           {
@@ -937,7 +937,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:2dadc7ec0933e31c3f584aef9b0cdbaef93c4f389ec92661a74173ffdd3a26f9",
+      "hash": "sha256:f29011e787e85a6975e616291d14961824b569e50bdfc866df06126f2329fd8a",
       "bytes": 507330,
       "fields": 24,
       "rows": 1025,
@@ -1163,10 +1163,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:e75c11843ce62b27b30aa5470b67348e735a3f91b1a7508046f895f12d52f8b5",
-      "bytes": 162475,
+      "hash": "sha256:730581c8c7cf5ba322b944993eb4647489ee36e0879bfdd812605e5e50a12492",
+      "bytes": 162769,
       "fields": 10,
-      "rows": 571,
+      "rows": 572,
       "schema": {
         "fields": [
           {
@@ -1337,7 +1337,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:6c0ad55741eedef31fba5e632fe708ed9226e7be890be56a1cf2b261bd51fa45",
+      "hash": "sha256:3a62b81467bdc6caea58709ecbaf22f2dc9bb2eafd1a31c930500f2969fddb8a",
       "bytes": 41203,
       "fields": 15,
       "rows": 494,
@@ -1561,5 +1561,5 @@
       }
     }
   ],
-  "updated_at": "2024-01-22T19:55:36"
+  "updated_at": "2024-01-24T13:05:30"
 }
